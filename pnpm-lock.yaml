@@ -18,8 +18,8 @@ devDependencies:
     specifier: 8.40.0
     version: registry.npmmirror.com/@types/eslint@8.40.0
   '@types/node':
-    specifier: ^20.2.5
-    version: registry.npmmirror.com/@types/node@20.2.5
+    specifier: ^20.3.2
+    version: registry.npmmirror.com/@types/node@20.3.2
   '@typescript-eslint/eslint-plugin':
     specifier: 5.59.8
     version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@5.59.8(@typescript-eslint/parser@5.59.8)(eslint@8.41.0)(typescript@5.0.4)
@@ -43,7 +43,7 @@ devDependencies:
     version: registry.npmmirror.com/undici@5.22.1
   vite:
     specifier: 4.3.9
-    version: registry.npmmirror.com/vite@4.3.9(@types/node@20.2.5)
+    version: registry.npmmirror.com/vite@4.3.9(@types/node@20.3.2)
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.0.4)(vite@4.3.9)
@@ -651,10 +651,10 @@ packages:
     version: 0.7.31
     dev: true
 
-  registry.npmmirror.com/@types/node@20.2.5:
-    resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-20.2.5.tgz}
+  registry.npmmirror.com/@types/node@20.3.2:
+    resolution: {integrity: sha512-vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-20.3.2.tgz}
     name: '@types/node'
-    version: 20.2.5
+    version: 20.3.2
     dev: true
 
   registry.npmmirror.com/@types/semver@7.5.0:
@@ -3286,13 +3286,13 @@ packages:
       debug: registry.npmmirror.com/debug@4.3.4
       globrex: registry.npmmirror.com/globrex@0.1.2
       tsconfck: registry.npmmirror.com/tsconfck@2.1.1(typescript@5.0.4)
-      vite: registry.npmmirror.com/vite@4.3.9(@types/node@20.2.5)
+      vite: registry.npmmirror.com/vite@4.3.9(@types/node@20.3.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  registry.npmmirror.com/vite@4.3.9(@types/node@20.2.5):
+  registry.npmmirror.com/vite@4.3.9(@types/node@20.3.2):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-4.3.9.tgz}
     id: registry.npmmirror.com/vite/4.3.9
     name: vite
@@ -3320,7 +3320,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@20.2.5
+      '@types/node': registry.npmmirror.com/@types/node@20.3.2
       esbuild: registry.npmmirror.com/esbuild@0.17.19
       postcss: registry.npmmirror.com/postcss@8.4.24
       rollup: registry.npmmirror.com/rollup@3.25.3
