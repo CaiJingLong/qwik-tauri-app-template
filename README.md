@@ -67,3 +67,5 @@ The production build will generate client and server modules by running both cli
 ```shell
 pnpm build
 ```
+
+For details, please refer to tauri/v1.
